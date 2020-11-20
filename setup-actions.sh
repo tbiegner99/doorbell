@@ -75,7 +75,7 @@ readActionConfig() {
     echo "Enter a doorbell action:"
     echo "1. Chime - splays a sound through the speaker."
     echo "2. Log - outputs a message to console"
-    echo "3. Cancel"
+    echo "3. Done"
     while true; do
         readNumber "Enter Choice (1-4): " CHOICE
         if ((CHOICE >= 1 && CHOICE <= 4)); then
