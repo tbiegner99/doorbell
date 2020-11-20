@@ -73,7 +73,7 @@ JSON_CONFIG="{
     \"gpioPin\": ${GPIO_PIN}
 }"
 
-OUTPUT_FILE=./config2.json
+OUTPUT_FILE=./config.json
 
 writeFile "$OUTPUT_FILE" "$JSON_CONFIG"
 

@@ -114,7 +114,7 @@ while true; do
     ACTIONS="$ACTIONS $ACTION"
 done
 
-OUTPUT_FILE="./config2.json"
+OUTPUT_FILE="./config.json"
 
 JSON_CONFIG="{
     \"actions\": [$ACTIONS]
