@@ -1,5 +1,5 @@
 {
-  "gpioPort": 17,
+  "gpioPin": 17,
   "actions": [
     {
       "type": "log",
