@@ -1,0 +1,33 @@
+{
+  "name": "@tjb/doorbell",
+  "version": "1.0.0",
+  "description": "Doorbell App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TJ Biegner",
+  "license": "ISC",
+  "dependencies": {
+    "@tjb/temperature-sensor": "file:../../temperature-sensor/server",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-getopt": "^0.3.2",
+    "onoff": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "husky": "^4.3.0",
+    "jest": "^26.5.0",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.0.2"
+  }
+}

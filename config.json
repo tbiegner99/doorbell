@@ -1,0 +1,14 @@
+{
+  "gpioPort": 17,
+  "actions": [
+    {
+      "type": "log",
+      "message": "Doorbell Chimed"
+    },
+    {
+      "type": "chime",
+      "sound": "~/doorbell.wav",
+      "mute": true
+    }
+  ]
+}
