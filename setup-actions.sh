@@ -73,7 +73,7 @@ readLogConfig() {
 readActionConfig() {
     echo $1
     echo "Enter a doorbell action:"
-    echo "1. Chime - splays a sound through the speaker."
+    echo "1. Chime - plays a sound through the speaker."
     echo "2. Log - outputs a message to console"
     echo "3. Done"
     while true; do

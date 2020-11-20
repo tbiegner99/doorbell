@@ -67,7 +67,7 @@ if [[ "$OVERRIDE" == "n" ]]; then
     exit 0;
 fi
 
-readNumber $'Which GPIO pin is temperature sensor on?\n' GPIO_PIN
+readNumber $'Which GPIO pin is doorbell input on?\n' GPIO_PIN
 
 JSON_CONFIG="{
     \"gpioPin\": ${GPIO_PIN}
