@@ -34,9 +34,13 @@ class ChimeAction extends BaseAction {
   }
 
   async execute() {
-    await this.muteOtherSystemSounds();
+	try {
+ //   await this.muteOtherSystemSounds();
     await this.playChime();
-    await this.unmuteOtherSystemSounds();
+   // await this.unmuteOtherSystemSounds();
+	}catch(err) {
+		console.log(err.message,err);
+	}
   }
 }
 

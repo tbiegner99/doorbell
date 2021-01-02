@@ -1,3 +1,1 @@
-
-
-paplay ~/doorbell.wav --volume=65536 --stream-name=door_chime -d 1
+aplay -D hw:CARD=ALSA,DEV=0 $1
